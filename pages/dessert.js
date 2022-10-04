@@ -9,6 +9,7 @@ export default function Dessert() {
         height={1599}
         alt="kuchen"
         layout="responsive"
+        priority
       />
       <p>
         .tema tis rolod muspi meroL tse sutcnas atamikat aes on ,nergrebug dsak
