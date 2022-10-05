@@ -5,13 +5,16 @@ export default function Veggie() {
   return (
     <>
       <h1>Veggie</h1>
-      <Image
-        src="/pizza.jpg"
-        width={2400}
-        height={1597}
-        layout="responsive"
-        alt="pizza"
-      />
+      <ImageContainer>
+        <Image
+          src="/pizza.jpg"
+          width={2400}
+          height={1597}
+          layout="fill"
+          objectFit="cover"
+          alt="pizza"
+        />
+      </ImageContainer>
       <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -27,6 +30,13 @@ export default function Veggie() {
   );
 }
 
-const ImageContainer = styled(Image)`
-  border: 10px solid red;
+const ImageContainer = styled.div`
+  //wichtig:
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1;
+  //optional:
+  width: 50%;
+  margin: auto;
 `;
