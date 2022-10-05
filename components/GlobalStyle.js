@@ -11,12 +11,11 @@ const GlobalStyle = createGlobalStyle`
        url('/fonts/special-elite-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-
   html, body {
     margin: 0;
     padding: 0;
     font-family: 'Special Elite', Helvetica, Sans-Serif;
-    background-color: Lightblue;
+    background-color: pink;
     text-align: center;
   }
 

@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Veggie() {
   return (
     <>
-      <h1>Hier gibt es Veggie</h1>
+      <h1>Veggie</h1>
       <Image
         src="/pizza.jpg"
         width={2400}
