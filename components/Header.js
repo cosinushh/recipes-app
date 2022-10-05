@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <HeaderContainer>
-        <h2>Comic Sans rules!</h2>
+        <h2>Header</h2>
       </HeaderContainer>
     </>
   );

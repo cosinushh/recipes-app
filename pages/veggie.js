@@ -1,4 +1,5 @@
 import Image from "next/image";
+import styled from "styled-components";
 
 export default function Veggie() {
   return (
@@ -25,3 +26,7 @@ export default function Veggie() {
     </>
   );
 }
+
+const ImageContainer = styled(Image)`
+  border: 10px solid red;
+`;

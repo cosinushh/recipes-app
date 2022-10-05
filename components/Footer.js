@@ -4,13 +4,14 @@ export default function Footer() {
   return (
     <>
       <FooterContainer>
-        <h2>Footer</h2>
+        <h2>Comic Sans rules!</h2>
       </FooterContainer>
     </>
   );
 }
 
 const FooterContainer = styled.footer`
+  font-family: "Comic Sans MS", "Comic Sans", Arial, Helvetica, sans-serif;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -21,7 +22,6 @@ const FooterContainer = styled.footer`
   & h2 {
     animation: blinker 1s linear infinite;
   }
-  
 
   @keyframes blinker {
     50% {
